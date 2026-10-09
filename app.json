@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Tarefitas",
+    "slug": "Tarefitas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#25235C"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#25235C"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O Tarefitas usa suas fotos para escolher a foto de perfil.",
+          "cameraPermission": "O Tarefitas usa a câmera para tirar a foto de perfil."
+        }
+      ]
+    ]
+  }
+}

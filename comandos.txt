@@ -1,0 +1,5 @@
+npm install
+npx expo install --fix
+npx expo start
+# se o celular nao conectar (Wi-Fi diferente / rede da faculdade):
+npx expo start --tunnel
